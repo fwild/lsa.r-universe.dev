@@ -1,16 +1,11 @@
 Package: lsa
 Title: Latent Semantic Analysis
-Version: 0.73.4
+Version: 0.80.0
 Authors@R: person(given = "Fridolin",
                   family = "Wild",
                   role = c("aut", "cre"),
                   email = "wild@brookes.ac.uk")
-Description: The basic idea of latent semantic analysis (LSA) is, 
-  that text do have a higher order (=latent semantic) structure which, 
-  however, is obscured by word usage (e.g. through the use of synonyms 
-  or polysemy). By using conceptual indices that are derived statistically 
-  via a truncated singular value decomposition (a two-mode factor analysis) 
-  over a given document-term matrix, this variability problem can be overcome. 
+Description: The idea of latent semantic analysis (las) is, that text do have a higher order structure that is obscured by word usage (e.g., by synonyms or polysemy). This can be overcome by using conceptual indices that are derived statistically via a truncated singular value decomposition (a two-mode factor analysis) over a given document-term matrix.
 Depends: SnowballC
 Suggests: tm
 License: GPL (>= 2)
